@@ -86,12 +86,12 @@ deactivate
 
 ## Contributing
 Currently, I would strongly discourage committing changes to this repository. Please
-feel free to use and work within the notebooks as you wish. However, Jupyter Notebooks,
-are notoriusly bad with git MRs. I can implement a better management tool to turn the 
-Notebooks into Markdown and back later. For now, please simply use the notebooks, but
-do not commit any changes back to this repo. Juypter Lab is build into the requirements.txt
-so if you simply run from the root of the project you should be able to interact with, change,
-and run the notebooks once you have configured your .venv based on the Make commands above.
+feel free to use, change, and work within the notebooks locally on your machine as you 
+wish. However, Jupyter Notebooks, are notoriously bad with git MRs. I can implement a better
+ management tool to turn the Notebooks into Markdown and back later. For now, please simply 
+do not commit any changes back to this repo using git. Juypter Lab is built into the requirements.txt
+so if you simply run it from the root of the project you should be able to change and run the 
+notebooks locally once you have configured your .venv based on the Make commands above.
 ```
 jupyter lab
 ```
